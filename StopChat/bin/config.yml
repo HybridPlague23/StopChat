@@ -1,0 +1,26 @@
+Prefix: "&7[&bStopChat&7] "
+
+Chat-Stopped:
+  Require-Reason: false
+  
+  Resumed:
+  - ""
+  - "  &cChat has been resumed by &e%p%&c."
+  - ""
+  
+  With-Reason:
+  - ""
+  - "  &cChat has been halted by &e%p% &cfor:"
+  - "  &b%reason%"
+  - ""
+  
+  No-Reason:
+  - ""
+  - "  &cChat has been halted by &e%p%&c."
+  - ""
+
+Errors:
+  Already-Stopped: "&cChat has already been halted."
+  Not-Stopped: "&cChat is not currently halted."
+  No-Reason: "&cMissing reason. &7/stopchat stop <reason>"
+  Denied-Chat: "&cYou are not allowed to speak at this time. Please wait for chat to be resumed."
